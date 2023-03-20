@@ -71,6 +71,8 @@ r22.12.25存在几个有bug的阶段。
 4.更新GitHub Actions output函数。  
 
 2023-3-20:fork以后在config/ipq6000.config中添加了wireguard组件和edge风格页面
+
+CONFIG_PACKAGE_kmod-wireguard=y
 CONFIG_PACKAGE_wireguard-tools=y
 CONFIG_PACKAGE_luci-proto-wireguard=y
 CONFIG_PACKAGE_luci-app-wireguard=y
