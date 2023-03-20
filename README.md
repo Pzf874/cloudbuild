@@ -70,8 +70,9 @@ r22.12.25存在几个有bug的阶段。
 3.原ipq6000仓库改名ipq6018并不再更新。新仓库依然叫ipq6000。  
 4.更新GitHub Actions output函数。  
 
-2023-3-20:fork以后在config/ipq6000.config中添加了wireguard组件和edge风格页面
+03.20:为了我自用的ZN-M2增加Wireguard支持(不编译kmod-wireguard进去，以后就没地方安装，也没法安装luci-app-wireguard)
 
+fork以后在config/ipq6000.config中添加了wireguard组件和edge风格页面
 CONFIG_PACKAGE_kmod-wireguard=y
 CONFIG_PACKAGE_wireguard-tools=y
 CONFIG_PACKAGE_luci-proto-wireguard=y
